@@ -6,6 +6,8 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import { NavLink } from 'react-router-dom';
 import CartWidget from '../CartWidget/CartWidget';
 import logo from './assets/logo.png'
+import { Link } from 'react-router-dom';
+
 
 function MyNavbar() {
     return (
@@ -29,7 +31,7 @@ function MyNavbar() {
               <Nav.Link href="#pricing">Contacto</Nav.Link>
             </Nav>
             <Nav>
-              <CartWidget/>
+              <Link to="/Cart"><CartWidget/></Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

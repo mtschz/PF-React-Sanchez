@@ -1,12 +1,15 @@
+import { CartContext } from '../../context/CartContext'
 import cart from './assets/carro.png'
+import Badge from 'react-bootstrap/Badge';
 
-import React from 'react'
+import React, { useContext } from 'react'
 
 export const CartWidget = () => {
+  const {cartQuantity} = useContext(CartContext)
   return (
     <div className="cartWidget">
         <img src={cart} alt="car-widget"/>
-        0
+        <Badge bg="light" text="dark">{cartQuantity() > 0 && cartQuantity()}</Badge>
     </div>
   )
 }

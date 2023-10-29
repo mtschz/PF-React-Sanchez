@@ -57,3 +57,22 @@ h1, h2, h3, h4, h5, h6, p {
   background-color: #1c212b;
   margin: 0;
 }
+
+.containerLoading, .checkoutContainer, #root {
+  background-color: #1c212b;
+  height: 100vh;
+}
+
+th {
+  background-color: rgb(24, 22, 31) !important;
+  color: rgb(222, 222, 226) !important;
+}
+
+td {
+  background-color: #2e333c !important;
+  color: rgb(212, 212, 214) !important;
+}
+
+.ItemCountContainer {
+  width: 10%;
+}
