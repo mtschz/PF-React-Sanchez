@@ -2,7 +2,7 @@
 
 Este es el proyecto final para el curso de React JS de Coderhouse 
 
-## Descripción del Proyecto
+## Descripción del proyecto
 
 Este proyecto es un simulador de una tienda en línea de dispositivos electrónicos. Proporciona a los usuarios la capacidad de realizar diversas acciones, incluyendo:
 
@@ -12,16 +12,15 @@ Este proyecto es un simulador de una tienda en línea de dispositivos electróni
 - Agregar productos al carrito de compras.
 - Procesar la compra y recibir confirmación.
 
-## Tecnologías Utilizadas
+## Tecnologías utilizadas
 
 - React
 - Firebase
 - Bootstrap
 - React Router
 
-## Configuración del Proyecto
+## Configuración del proyecto
 
 Para ejecutar el proyecto 
 
-git clone https://github.com/mtschz/PF-React-Sanchez.git
-npm start
+git clone https://github.com/mtschz/PF-React-Sanchez.git <br> npm start
