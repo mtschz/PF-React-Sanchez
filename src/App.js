@@ -8,6 +8,7 @@ import { BrowserRouter, Routes, Route} from 'react-router-dom';
 import Home from './Pages/Home/Home';
 import { CartProvider } from './context/CartContext';
 import Checkout from './Components/Checkout/Checkout';
+
 function App() {
   
   return (

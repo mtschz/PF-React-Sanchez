@@ -1,12 +1,8 @@
 import React, { useContext } from "react";
-import Button from "react-bootstrap/esm/Button";
-import Form from "react-bootstrap/esm/Form"
-import Col from "react-bootstrap/esm/Col";
 import { useState } from "react";
 import { CartContext } from "../../context/CartContext";
 import { addDoc, collection, serverTimestamp } from "firebase/firestore";
 import { getFirestore } from "firebase/firestore";
-import { Link } from "react-router-dom";
 
 const Checkout = () => {
     const db = getFirestore();

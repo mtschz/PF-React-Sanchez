@@ -1,15 +1,12 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
-import { getItemById } from '../../Helpers/Items'
-import Button from "react-bootstrap/esm/Button";
-import { NavLink } from 'react-router-dom';
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Image from 'react-bootstrap/Image';
 import ItemCount from '../ItemCount/ItemCount'
 import { useState, useContext } from 'react';
 import { CartContext } from '../../context/CartContext';
-import { collection, getDoc, getFirestore, query, where, doc } from "firebase/firestore";
+import { getDoc, getFirestore, doc } from "firebase/firestore";
 import { useEffect } from 'react';
 import Spinner from 'react-bootstrap/esm/Spinner';
 import { Link } from 'react-router-dom';

@@ -1,4 +1,3 @@
-import { getFirestore } from "firebase/firestore";
 const firebaseConfig = {
   apiKey: "AIzaSyDGkKr1rc7stqBlZ-PcxUZ5I4r9eyFq1RM",
   authDomain: "ecommerce-c180c.firebaseapp.com",

@@ -2,8 +2,6 @@ import React from "react"
 import { useContext } from "react"
 import { CartContext } from "../../context/CartContext"
 import { Link } from "react-router-dom"
-import Home from "../Home/Home"
-import { NavLink } from 'react-router-dom';
 
 const Cart = () => {
 const {cart, clear, total, removeItem} = useContext(CartContext)
